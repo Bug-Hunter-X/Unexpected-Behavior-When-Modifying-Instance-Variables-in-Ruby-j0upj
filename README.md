@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Ruby related to modifying object attributes.  The `bug.rb` file showcases the unexpected behavior that occurs when trying to update an instance variable indirectly via a getter method.  The solution, in `bugSolution.rb`, demonstrates the appropriate approach using explicit setter methods or instance variable assignment.
